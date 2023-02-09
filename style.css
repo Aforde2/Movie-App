@@ -1,0 +1,68 @@
+body {
+    background-image: url(New-Movie-Background.jpeg);
+    background-repeat: no-repeat;
+    background-size: 1400px 650px;
+    color: white;
+    text-align: center;
+    background-size: cover;
+}
+
+img {
+    height: 200px;
+
+}
+/* .Movie-in-middle { */
+    /* background-image: url(Tv-Guide.png); */
+    /* background-size: contain; */
+    /* background-repeat: no-repeat; */
+    /* position: absolute; */
+    /* width: 550px;
+    height: 300px; */
+    /* margin-left: 300px;
+    margin-top: 150px; */
+/* } */
+button{
+    margin-top: 340px;
+    margin-right: 20px;
+    margin-left: 10px;
+    
+}
+
+#movie-2 {
+    margin-left: 30px;
+    margin-right: 40px;
+}
+.Movie-Button{
+margin-left: 50px;
+}
+.movie-poster {
+    
+    position: relative;
+    margin-left: 320px;
+    margin-top: 50px;
+    width: 120px;
+    height: 170px;
+    margin-bottom: 100;
+}
+
+.Movie-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.TV-Guide {
+    height: 160px;
+    width: 365px;
+    z-index: -10;
+    top: 200px;
+    position: absolute;
+    left: 40vw;
+}
+
+.Movie-Details {
+    position: absolute;
+    bottom: 200px;
+}
